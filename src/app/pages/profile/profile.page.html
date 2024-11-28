@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="block" (click)="tomarFoto()">Tomar Foto</ion-button>
+  <img *ngIf="foto" [src]="foto" />
+</ion-content>
